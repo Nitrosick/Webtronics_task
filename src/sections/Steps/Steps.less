@@ -1,0 +1,24 @@
+@import '../../app/variables.less';
+
+.steps {
+    position: relative;
+    padding: 0 40px;
+
+    &_tree {
+        position: relative;
+        margin: 55px 0 180px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 0;
+    }
+
+    &_scale {
+        position: absolute;
+        top: 140px;
+        bottom: 140px;
+        left: 50%;
+        width: 4px;
+        margin-left: -2px;
+        background: @gradient-cyan-green;
+    }
+}

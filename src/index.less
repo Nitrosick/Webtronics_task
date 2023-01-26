@@ -1,0 +1,79 @@
+@import './app/variables.less';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600&display=swap');
+
+@font-face {
+    font-family: 'Clash Display Regular';
+    src: local('Clash Display Regular'), url(./fonts/ClashDisplay-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Clash Display Semibold';
+    src: local('Clash Display Semibold'), url(./fonts/ClashDisplay-Semibold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Clash Display Bold';
+    src: local('Clash Display Bold'), url(./fonts/ClashDisplay-Bold.woff) format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: @color-dark-blue;
+    color: @color-background;
+    overflow: overlay;
+}
+
+a {
+    color: @color-background;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: 'Clash Display Semibold', sans-serif;
+    font-size: @font-size-h1;
+    line-height: 150px;
+}
+
+h2 {
+    font-family: 'Clash Display Semibold', sans-serif;
+    font-size: @font-size-h2;
+    line-height: 85px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Clash Display Semibold', sans-serif;
+    font-size: @font-size-h3;
+    line-height: 36px;
+}
+
+h4 {
+    font-family: 'Clash Display Regular', sans-serif;
+    font-size: @font-size-h4;
+    line-height: 28px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: @shadow-overlay;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: @color-background;
+    border: 1px solid @color-light-blue;
+    border-radius: 4px;
+}

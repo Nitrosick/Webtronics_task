@@ -1,0 +1,36 @@
+@import '../../app/variables.less';
+
+.about_us {
+    position: relative;
+    padding: 0 40px;
+
+    &_content {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 55px 0 180px 0;
+    }
+
+    &_mentors {
+        background-image: url(/src/images/lines.svg);
+        background-repeat: no-repeat;
+        background-position: center 50px;
+
+        &_title {
+            text-align: center;
+            margin-bottom: 120px;
+        }
+
+        &_list {
+            display: flex;
+            gap: 20px;
+        }
+    }
+
+    &_text {
+        font-size: @font-size-p1;
+        line-height: 22px;
+        margin-top: 110px;
+        max-width: 485px;
+    }
+}

@@ -1,0 +1,55 @@
+@import './variables.less';
+
+.section_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background_spot {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(#1b295b, transparent 72%);
+}
+
+.background_star {
+    position: absolute;
+    background-image: url(/src/images/background/star.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    filter: drop-shadow(0 0 10px #0028d7);
+
+    &.big {
+        width: 35px;
+        height: 40px;
+    }
+
+    &.medium {
+        width: 25px;
+        height: 28px;
+    }
+
+    &.small {
+        width: 15px;
+        height: 17px;
+    }
+}
+
+.background_text {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    white-space: nowrap;
+    -webkit-text-stroke: 1px @color-light-blue;
+    color: transparent;
+    font-size: 200px;
+    font-family: 'Clash Display Semibold', sans-serif;
+    line-height: 185px;
+    opacity: 0.05;
+}

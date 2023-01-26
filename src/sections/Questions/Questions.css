@@ -1,0 +1,29 @@
+.questions {
+  position: relative;
+  padding: 0 40px;
+}
+.questions_content {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: auto 1fr;
+  gap: 56px 24px;
+  margin: 55px 0 180px 0;
+}
+.questions_text {
+  font-size: 16px;
+  line-height: 22px;
+}
+.questions_list {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.questions_mark {
+  display: flex;
+  justify-content: center;
+}
+.questions_mark_img {
+  filter: drop-shadow(0 0 15px rgba(156, 55, 253));
+}

@@ -1,0 +1,52 @@
+@import '../../app/variables.less';
+
+.footer_wrapper {
+    background: @gradient-blue-purple;
+    padding-top: 1px;
+    margin-top: 150px;
+}
+
+.footer {
+    background-color: @shadow-dark-overlay;
+
+    &_content {
+        padding: 35px 40px;
+        display: flex;
+        gap: 165px;
+    }
+
+    &_title {
+        display: block;
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 500;
+        margin-bottom: 24px;
+    }
+
+    &_address_text {
+        font-size: @font-size-p1;
+        line-height: 22px;
+        margin-top: 24px;
+    }
+
+    &_company {
+        &_links {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: space-between;
+            gap: 16px;
+            width: 300px;
+
+            .company_link:nth-child(even) {
+                text-align: right;
+            }
+        }
+    }
+
+    &_social {
+        &_links {
+            display: flex;
+            gap: 24px;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+@import '../../app/variables.less';
+
+.arrow_wrapper {
+    background: @gradient-blue-purple;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+}
+
+.arrow_button {
+    background-color: @shadow-dark-overlay;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+    &_sign {
+        display: block;
+        position: relative;
+        top: -2px;
+        font-family: 'Inter', sans-serif;
+        color: @color-background;
+        font-size: 30px;
+        font-weight: 100;
+        transform: scale(0.7, 1);
+    }
+}

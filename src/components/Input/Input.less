@@ -1,0 +1,49 @@
+@import '../../app/variables.less';
+
+.input_wrapper {
+    background: @gradient-blue-purple;
+    border-radius: 8px;
+    padding: 1px;
+
+    &.error {
+        background: @color-orange;
+
+        .custom_input::placeholder {
+            color: @color-background;
+        }
+    }
+
+    &.disabled {
+        background: @shadow-overlay;
+
+        .custom_input::placeholder {
+            color: @shadow-overlay;
+        }
+    }
+}
+
+.custom_input {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: @font-size-p1;
+    color: @color-background;
+    background-color: @shadow-dark-overlay;
+    line-height: 24px;
+    padding: 24px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+
+    &::placeholder {
+        color: @color-light-blue;
+    }
+}
+
+.custom_input:active,
+.custom_input:focus {
+    outline: none;
+
+    &::placeholder {
+        color: @color-background;
+    }
+}

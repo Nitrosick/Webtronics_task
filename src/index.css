@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeMZg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Clash Display Regular';
+  src: local('Clash Display Regular'), url(fonts/ClashDisplay-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Clash Display Semibold';
+  src: local('Clash Display Semibold'), url(fonts/ClashDisplay-Semibold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Clash Display Bold';
+  src: local('Clash Display Bold'), url(fonts/ClashDisplay-Bold.woff) format('woff');
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+body {
+  background-color: #0C102D;
+  color: #FFFFFF;
+  overflow: overlay;
+}
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+h1 {
+  font-family: 'Clash Display Semibold', sans-serif;
+  font-size: 150px;
+  line-height: 150px;
+}
+h2 {
+  font-family: 'Clash Display Semibold', sans-serif;
+  font-size: 72px;
+  line-height: 85px;
+  text-align: center;
+}
+h3 {
+  font-family: 'Clash Display Semibold', sans-serif;
+  font-size: 32px;
+  line-height: 36px;
+}
+h4 {
+  font-family: 'Clash Display Regular', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #FFFFFF;
+  border: 1px solid #A2CBFB;
+  border-radius: 4px;
+}

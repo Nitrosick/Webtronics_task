@@ -1,0 +1,55 @@
+@import '../../app/variables.less';
+
+.review {
+    position: relative;
+    padding: 0 40px;
+
+    &_content {
+        margin: 50px 0 180px 0;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    &_description_text {
+        font-size: @font-size-p1;
+        line-height: 22px;
+        max-width: 390px;
+        margin-top: 16px;
+    }
+
+    &_persons {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        flex-grow: 1;
+
+        &_control {
+            display: flex;
+            justify-content: space-between;
+            gap: 24px;
+        }
+
+        &_number {
+            flex-grow: 1;
+            display: flex;
+
+            .current {
+                font-size: @font-size-h4;
+                line-height: 28px;
+                letter-spacing: -2px;
+            }
+
+            .all {
+                font-size: @font-size-p1;
+                line-height: 19px;
+                margin-left: 8px;
+            }
+        }
+
+        &_list {
+            display: flex;
+            gap: 24px;
+        }
+    }
+}

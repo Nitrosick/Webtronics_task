@@ -1,0 +1,36 @@
+@import '../../app/variables.less';
+
+.questions {
+    position: relative;
+    padding: 0 40px;
+
+    &_content {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-template-rows: auto 1fr;
+        gap: 56px 24px;
+        margin: 55px 0 180px 0;
+    }
+
+    &_text {
+        font-size: @font-size-p1;
+        line-height: 22px;
+    }
+
+    &_list {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    &_mark {
+        display: flex;
+        justify-content: center;
+
+        &_img {
+            filter: drop-shadow(0 0 15px rgba(156, 55, 253));
+        }
+    }
+}

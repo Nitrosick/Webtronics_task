@@ -1,0 +1,20 @@
+.steps {
+  position: relative;
+  padding: 0 40px;
+}
+.steps_tree {
+  position: relative;
+  margin: 55px 0 180px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 0;
+}
+.steps_scale {
+  position: absolute;
+  top: 140px;
+  bottom: 140px;
+  left: 50%;
+  width: 4px;
+  margin-left: -2px;
+  background: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+}

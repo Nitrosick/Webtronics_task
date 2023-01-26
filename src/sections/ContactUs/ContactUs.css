@@ -1,0 +1,28 @@
+.contsct_us_wrapper {
+  background: linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%);
+  border-radius: 20px;
+  padding: 1px;
+}
+.contact_us {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 26, 40, 0.95);
+  border-radius: 20px;
+  padding: 56px;
+}
+.contact_us_content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 495px;
+}
+.contact_us_text {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 8px;
+}
